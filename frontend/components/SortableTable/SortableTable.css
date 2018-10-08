@@ -1,0 +1,33 @@
+.arrowWrapper {
+    display: inline-block;
+    margin-left: 3px;
+}
+.arrowUp, .arrowDown {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.arrowUp {
+    border-bottom: 5px solid #c7c7c7;
+    margin-bottom: 0.2rem;
+}
+
+.arrowUpActive {
+    border-bottom: 5px solid black;
+}
+
+.arrowDown {
+    border-top: 5px solid #c7c7c7;
+}
+
+.arrowDownActive {
+    border-top: 5px solid black;
+}
+
+.sortNumber {
+    display: inline-block;
+    margin-left: 3px;
+    color: orange;
+}
